@@ -1,6 +1,7 @@
 import { students } from "./0-data.js";
 
-let total1 = 0;
+let total = 0;
+let points = [40, 100, 1, 5, 25, 10];
 for (let i = 0; i < points.length; i++) {
   total += points[i];
 }
